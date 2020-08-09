@@ -1,0 +1,1 @@
+# rivals-character-template
