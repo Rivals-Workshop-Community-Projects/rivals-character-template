@@ -52,7 +52,7 @@ air_friction = .02 // .02 – .07. Natural deceleration applied while in the air
 max_fall = 10 // 8 – 11. The maximum vsp you can accelerate to while falling normally
 fast_fall = 13 // 11 – 16. The vsp applied when fastfalling
 gravity_speed = .5 // .3 – .6. The gravitational acceleration applied in non-hitstun aerial states
-hitstun_grav = .5 // .45 – .525. The gravitational acceleration applied in hitstun
+hitstun_grav = .5 // .45 – .525. The gravitational acceleration applied in hitstun. Changes to this have large consequences to your character's survivibility
 
 // Jumping
 max_djumps = 1 // The max number of double jumps you can use.

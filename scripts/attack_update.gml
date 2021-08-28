@@ -62,9 +62,9 @@ if (attack == AT_USPECIAL){
             window_timer = 0
         }
     }
-    if (window > 3 && window < 6 && window_time_is(get_window_value(attack, window, AG_WINDOW_LENGTH))){ // WARN: Possible repetition during hitpause. Consider using window_time_is(frame) https://rivalslib.com/assistant/function_library/attacks/window_time_is.html
+    if (window > 3 && window < 6 && window_time_is(get_window_value(attack, window, AG_WINDOW_LENGTH))){
         window++
-        window_timer = 0 
+        window_timer = 0
     }
 }
 

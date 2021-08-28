@@ -37,7 +37,6 @@ set_num_hitboxes(AT_NAIR, 3);
 
 make_hitbox(AT_NAIR, 1,
     HG_PARENT_HITBOX, 1,
-    // HG_HITBOX_TYPE, 1,
     HG_WINDOW, 2,
     HG_LIFETIME, 3,
 
@@ -58,7 +57,6 @@ make_hitbox(AT_NAIR, 1,
 
 make_hitbox(AT_NAIR, 2,
     HG_PARENT_HITBOX, 1,
-    // HG_HITBOX_TYPE, 1,
     HG_WINDOW, 2,
     HG_WINDOW_CREATION_FRAME, 6,
     HG_LIFETIME, 3,
